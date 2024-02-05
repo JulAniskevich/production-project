@@ -9,7 +9,10 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "react": [ "./node_modules/@types/react" ]
+    },
   },
   "ts-node": {
     "compilerOptions": {
